@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h1 class="fw-bold">Donate</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="firstname" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstname">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastname" class="form-label">Last Name</label>
+                        <input type="password" class="form-control" id="lastname">
+                    </div>
+                    <div class="col-12">
+                        <label for="country" class="form-label">Country</label>
+                        <input type="number" class="form-control" id="country" placeholder="Australia">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress">
+                        <input type="text" class="form-control mt-2" id="inputAddress">
+                        <input type="text" class="form-control mt-2" id="inputAddress">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="Postalcode" class="form-label">Postal Code</label>
+                        <input type="text" class="form-control" id="Postalcode">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="phone">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" checked>
+                            <label class="form-check-label" for="gridCheck">
+                                Send Update Email
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <form  class="row gap-3">
+                    <div class="col-md-12">
+                        <label for="inlineRadioOptions">Amount</label>
+                        <div id="inlineRadioOptions">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">$25</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">$30</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label" for="inlineRadio3">$50</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                <label class="form-check-label" for="inlineRadio4">$100</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                                <label class="form-check-label" for="inlineRadio5">$200</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+                                <label class="form-check-label" for="inlineRadio6">$300</label>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="other" class="form-label">Other</label>
+                        <input type="text" class="form-control" id="other">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="CreditNumber" class="form-label">Credit Number</label>
+                        <input type="text" class="form-control" id="CreditNumber">
+                    </div>
+                    <div class="col-md-5 ">
+                        <label for="Expired" class="form-label">Expired</label>
+                        <div class="d-flex">
+                            <input type="number" class="form-control me-2" style="width: 90px;" id="Expired" placeholder="2022">
+                            <input type="number" class="form-control" style="width: 120px;" id="Expired" placeholder="7-july">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="CreditNumber" class="form-label">Credit Number</label>
+                        <input type="text" class="form-control" id="CreditNumber">
+                    </div>
+                    <div class="col-md-12">
+                        <img src="img/visa.png"width="45px" height="44px" alt="">
+                        <img src="img/master.png"width="45px" height="44px"  alt="">
+                        <img src="img/amex.png" width="45px" height="50px" alt="">
+                        <img src="img/discover.png" width="45px" height="37px" alt="">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <button class="btn btn-primary">Proccess Donation</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
